@@ -7,7 +7,7 @@ Backend fake completo com express + JSON-Server
 Não queira entender a motivação para tal mistura, apenas aproveite caso seja interessante para você também. ;)
 Don't try to understand the motivation for such a mix, just enjoy it if it's interesting for you too. ;)
 
-#Diagrama de confeitaria!
+# Diagrama de confeitaria!
 ## ![DiagramaDeConfeitaria](https://github.com/user-attachments/assets/994db9ec-b4d7-4bda-a5bd-97b108aef815)
 
 ## Dependencias - Dependencies
