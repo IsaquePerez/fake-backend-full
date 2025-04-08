@@ -32,13 +32,16 @@ Open [http://localhost:8800](http://localhost:8800) to view it in your browser E
 ## json-server DB
 File: db.json
 ```
-{
-    "perguntas": [
-      { "id": 1, "pergunta": "ola", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" },
-      { "id": 2, "pergunta": "oi", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" },
-      { "id": 3, "pergunta": "hi", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" }
-      ]
-}
+"categorias": [
+    {
+      "id": 1,
+      "nome": "Bolos",
+      "descricao": "Bolos artesanais para todas as ocasiões",
+      "imagem_url": "/img/categorias/bolos.jpg",
+      "ativa": true,
+      "created_at": "2023-01-15T10:00:00Z",
+      "updated_at": "2023-01-15T10:00:00Z"
+    }
 ```
 
 
