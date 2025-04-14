@@ -57,10 +57,10 @@ app.get("/usuarios", async (req, res) => {
  
  
 // Rota GET por ID
-app.get("/produtos/:id", async (req, res) => {
+app.get("/usuarios/:id", async (req, res) => {
     const { id } = req.params;
     try {
-        const response = await axios.get(`http://localhost:3000/produtos/${id}`);
+        const response = await axios.get(`http://localhost:3000/usuarios/${id}`);
         console.log(`Consulta por ID ${id} realizada`);
         return res.json(response.data);
     } catch (error) {
